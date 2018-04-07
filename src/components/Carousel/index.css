@@ -1,0 +1,29 @@
+.carousel .carousel__nav {
+  position: absolute;
+  top: 50%;
+}
+
+.carousel__nav .btn {
+  font-weight: 100;
+}
+
+.carousel__slides--img {
+  height: 500px;
+  object-fit: contain;
+}
+
+.carousel__thumbnails {
+  height: 100px;
+  white-space: nowrap;
+}
+
+.carousel__thumbnails--scrollbar {
+  overflow: auto;
+}
+
+.carousel__thumbnails--img {
+  cursor: pointer;
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
